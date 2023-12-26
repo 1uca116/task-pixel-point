@@ -27,9 +27,9 @@ export default function getMetadata({
     robots,
     manifest: `${SITE_URL}/manifest.json`,
     icons: {
-      icon: '/images/tailwindcss-logo.png',
+      icon:  '/images/favicon/favicon-32x32.png' ,
       apple: [
-        { url: '/images/favicon/favicon.png' },
+        { url: '/images/favicon/favicon-32x32.png' },
         {
           url: '/images/favicon/favicon-48x48.png',
           sizes: '48x48',

@@ -6,12 +6,6 @@ import 'styles/global.css';
 // eslint-disable-next-line react/prop-types
 const RootLayout = ({ children }) => (
   <html lang='en'>
-    <link
-      rel='shortcut icon'
-      href='/images/tailwindcss-logo.png'
-      type='image/png'
-      sizes='any'
-    />
     <body>
       <Header />
       <main>{children}</main>
