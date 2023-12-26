@@ -1,0 +1,51 @@
+.linear-text::placeholder {
+  background: linear-gradient(
+    90deg,
+    #eac8f2 0%,
+    #e6adec 32.41%,
+    #d49ee8 71.97%,
+    #ca97e6 100%
+  );
+  opacity: 0.8;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linear-text2 {
+  background: linear-gradient(
+    133deg,
+    #d383fc 21.78%,
+    #cb6afb 39.25%,
+    rgba(203, 106, 251, 0.2) 86.85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay {
+  background-blend-mode: overlay;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.5) 100%),
+    rgb(14, 10, 15);
+}
+.overlay_border {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+.round_gradient {
+  @apply absolute top-[-128px] ;
+  @apply w-full h-full max-w-[630px] max-h-[630px];
+  @apply bg-primary-1 opacity-[0.15];
+  @apply rounded-full shadow-large blur-large z-10;
+}
+.ellipse_gradient {
+  @apply absolute;
+  @apply w-full lg:max-w-[150px] h-full;
+  @apply bg-primary-2 opacity-30;
+  @apply rounded-full;
+  @apply shadow-medium blur-medium z-10;
+}

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Fallback';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial');
+  ascent-override: 92.49%;
+  descent-override: 24.34%;
+  line-gap-override: 0%;
+  size-adjust: 100.3%;
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../assets/fonts/Roboto-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto-Light Fallback';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Arial');
+  ascent-override: 94.03%;
+  descent-override: 24.74%;
+  line-gap-override: 0%;
+  size-adjust: 98.66%;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins Fallback';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial');
+  ascent-override: 92.83%;
+  descent-override: 30.94%;
+  line-gap-override: 8.84%;
+  size-adjust: 113.11%;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../assets/fonts/Poppins-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight Fallback';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Arial');
+  ascent-override: 94.89%;
+  descent-override: 31.63%;
+  line-gap-override: 9.04%;
+  size-adjust: 110.66%;
+}

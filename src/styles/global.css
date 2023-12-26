@@ -1,0 +1,61 @@
+@import './fonts.css';
+@import './gradients.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', 'Roboto Fallback';
+  }
+
+  body {
+    @apply antialiased;
+    @apply bg-black text-grey-98;
+    @apply flex flex-col;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-[1500px] px-5;
+  }
+  @screen 2xl {
+    .container {
+      @apply px-3.5;
+    }
+  }
+
+  .gap-x-grid {
+    @apply gap-x-10;
+  }
+}
+
+@layer utilities {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+  }
+  .remove-autocomplete-styles:-webkit-autofill,
+  .remove-autocomplete-styles:-webkit-autofill:hover,
+  .remove-autocomplete-styles:-webkit-autofill:focus {
+    transition: background-color 5000s;
+  }
+
+
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+      display: none;
+  }
+}
+
