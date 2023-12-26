@@ -1,4 +1,11 @@
 {
+  "name": "My test example",
+  "short_name": "My test example",
+  "description": "Test example provided for examination",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0E0A0F",
+  "theme_color": "#9966FF",
   "icons": [
     {
       "src": "/favicon-48x48.png?v=7e1ec4bff44a82e34231cbaeff0b539e",

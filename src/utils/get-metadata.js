@@ -1,10 +1,7 @@
-const SITE_URL =
-  process.env.NEXT_PUBLIC_DEFAULT_SITE_URL || 'http://localhost:3000/';
-// FIXME: Add real data for your site
-const SITE_NAME = 'Pixel Point Next.js Tailwind Starter';
-// FIXME: Add an image for displaying on social networks, remember that this image must meet the size of 1200x630
-// For example: /images/social-previews/index.jpg
-const DEFAULT_IMAGE_PATH = '';
+const SITE_URL = process.env.NEXT_PUBLIC_DEFAULT_SITE_URL;
+
+const SITE_NAME = 'Ecosystem test example';
+const DEFAULT_IMAGE_PATH = '/images/social-previews/index.png';
 
 export default function getMetadata({
   title,
@@ -28,7 +25,6 @@ export default function getMetadata({
     },
     metadataBase: new URL(SITE_URL),
     robots,
-    // FIXME: Generate favicons with Favpie - https://github.com/pixel-point/favpie
     manifest: `${SITE_URL}/manifest.json`,
     icons: {
       icon: '/images/tailwindcss-logo.png',

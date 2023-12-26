@@ -23,10 +23,7 @@
 
 .overlay {
   background-blend-mode: overlay;
-  background: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.5) 100%),
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.5) 100%),
     rgb(14, 10, 15);
 }
 .overlay_border {
@@ -37,7 +34,7 @@
   );
 }
 .round_gradient {
-  @apply absolute top-[-128px] ;
+  @apply absolute top-[-128px];
   @apply w-full h-full max-w-[630px] max-h-[630px];
   @apply bg-primary-1 opacity-[0.15];
   @apply rounded-full shadow-large blur-large z-10;

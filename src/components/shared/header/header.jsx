@@ -67,7 +67,7 @@ const Header = () => {
                 className={'flex gap-1 items-center justify-center'}
               >
                 <span>Resources</span>
-                <img src={dropdown} width={'12px'} height={'12px'} alt=''/>
+                <img src={dropdown} width={'12px'} height={'12px'} alt='' />
               </Link>
             </li>
           </ul>
