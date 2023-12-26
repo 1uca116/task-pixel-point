@@ -29,7 +29,6 @@ export default function getMetadata({
     icons: {
       icon:  '/images/favicon/favicon-32x32.png' ,
       apple: [
-        { url: '/images/favicon/favicon-32x32.png' },
         {
           url: '/images/favicon/favicon-48x48.png',
           sizes: '48x48',
